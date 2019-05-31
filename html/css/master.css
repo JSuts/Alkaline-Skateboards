@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a:hover {
+  color: rgb(252, 9, 27);
+  text-decoration: none;
+}
+
+.special-red {
+  color: rgb(252, 9, 27);
+}
+
+
+
+
+
+/* Nav */
+.nav-text {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 2.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.nav-separate {
+  border-left: solid red .2vw;
+}
+
+
+
+.logo {
+  position: fixed;
+  top: 5vw;
+  width: 35vw;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    top: 7vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    top: 8vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    top: 9vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    top: 12vw;
+  }
+}
+
+
+
+/* Footer */
+footer {
+  margin: 2%;
+}
+
+footer a {
+  color: white;
+}
+
+#returnTop:hover {
+  color: rgb(252, 9, 27);
+  cursor: pointer;
+}
+
+.footer-logo {
+  border-top: solid white .1vw;
+  border-bottom: solid white .1vw;
+  font-size: 1.8vw;
+  font-family: 'Coda Caption', sans-serif; /* 2019 Alkaline. skateboards */
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.footer-text {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.footer-medium {
+  font-size: 1.5vw;
+}
+
+.footer-small {
+  font-size: 1.2vw;
+}
+
+.footer-separate li {
+  margin-top: 1vw;
+  border-right: solid white .1vw;
+  border-left: solid white .1vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+.footer-separate :first-child {
+  border-left: none;
+}
+
+.footer-separate :last-child {
+  border-right: none;
+}
+
+.fa-instagram {
+  font-size: 4vw;
+  color: rgb(209, 148, 34);
+}
+
+.fa-instagram:hover {
+  color: rgb(209, 148, 34);
+  text-decoration: none;
+}
