@@ -1,0 +1,66 @@
+.nav-separate {
+  border-left: solid red .2vw;
+}
+
+#scrollText {
+  position: fixed;
+  font-size: 2.5vw;
+  top: 1vw;
+  left: 91vw;
+
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+.logo {
+  position: fixed;
+  /* Left Aligned */
+  /* top: 5vw;
+  width: 35vw; */
+
+  /* Center Aligned */
+  width: 60vw;
+  left: 17vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* @media (max-width: 1000px) {
+  .logo {
+    top: 7vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    top: 8vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    top: 9vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    top: 12vw;
+  }
+} */
+
+
+
+.leftLines {
+  position: fixed;
+  top: 20vw;
+  left: .5vw;
+  width: 2vw;
+}
+
+.rightLines {
+  position: fixed;
+  top: 24vw;
+  left: 97.5vw;
+  width: 2vw;
+}
