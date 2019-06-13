@@ -34,14 +34,30 @@ a:hover {
 }
 
 
+#scrollText {
+  position: fixed;
+  font-size: 2.5vw;
+  top: 1vw;
+  left: 91vw;
+
+  opacity: 1;
+  transition: 1s opacity;
+}
 
 .logo {
   position: fixed;
-  top: 5vw;
-  width: 35vw;
+  /* Left Aligned */
+  /* top: 5vw;
+  width: 35vw; */
+
+  /* Center Aligned */
+  width: 60vw;
+  left: 17vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .logo {
     top: 7vw;
   }
@@ -63,8 +79,23 @@ a:hover {
   .logo {
     top: 12vw;
   }
+} */
+
+
+
+.leftLines {
+  position: fixed;
+  top: 22vw;
+  left: .5vw;
+  width: 2vw;
 }
 
+.rightLines {
+  position: fixed;
+  top: 26vw;
+  left: 97.5vw;
+  width: 2vw;
+}
 
 
 /* Footer */
@@ -91,7 +122,7 @@ footer a {
 }
 
 .footer-text {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Teko', sans-serif;
 }
 
 .footer-medium {
@@ -120,10 +151,10 @@ footer a {
 
 .fa-instagram {
   font-size: 4vw;
-  color: rgb(209, 148, 34);
+  color: rgb(252, 9, 27);
 }
 
 .fa-instagram:hover {
-  color: rgb(209, 148, 34);
+  color: rgb(252, 9, 27);
   text-decoration: none;
 }
