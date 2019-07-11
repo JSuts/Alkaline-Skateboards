@@ -1,14 +1,3 @@
-/* Fonts */
-@font-face {
-  font-family: alteDIN;
-  src: url('../fonts/alte-din.ttf');
-}
-
-.alteDIN {
-  font-family: 'alteDIN', sans-serif;
-}
-
-
 /* Nav Bar */
 .nav-text {
     color: black;
