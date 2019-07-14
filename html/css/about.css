@@ -1,0 +1,85 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Teko', sans-serif;
+}
+
+/* Nav Bar */
+.nav-text {
+    color: black;
+    font-size: 1.5vw;
+}
+
+.nav-separate li {
+  border-left: solid black .2vw;
+  border-right: solid black .2vw;
+  margin-right: .4vw;
+  margin-left: .4vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.nav-separate :first-child {
+  border-left: none;
+}
+
+.nav-separate :last-child {
+  border-right: none;
+}
+
+
+/* About Title */
+.title {
+  font-size: 4vw;
+  margin-left: 4vw;
+  margin-top: 4vw;
+}
+
+.title img {
+  width: 80vw;
+}
+
+/* Info section */
+.logo {
+  width: 30vw;
+  margin: auto;
+  display: block;
+}
+
+.desc-1 {
+  font-size: 2vw;
+}
+
+.side-image-1 {
+  left: 50%;
+	margin-left: -10vw;
+	margin-right: -50vw;
+	max-width: 24vw;
+	position: relative;
+	right: 50%;
+	width: 24vw;
+}
+
+.side-image-2 {
+  left: 50%;
+	margin-left: -15vw;
+	max-width: 25vw;
+	position: relative;
+	right: 50%;
+	width: 25vw;
+  overflow: hidden;
+}
+
+
+.desc-2 {
+  font-size: 2vw;
+}
+
+.desc-3 {
+  font-size: 1.7vw;
+}
+
+.bottom-image {
+  width: 70vw;
+  float: right;
+}
