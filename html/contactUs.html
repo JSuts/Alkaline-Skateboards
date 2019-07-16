@@ -11,31 +11,31 @@
     <!-- Coda Caption Font -->
     <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap" rel="stylesheet">
     <!-- Advent Pro Font -->
-    <link href="https://fonts.googleapis.com/css?family=Advent+Pro:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro:600&display=swap" rel="stylesheet">
     <!-- Teko Font -->
     <link href="https://fonts.googleapis.com/css?family=Teko:300&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="./js/master.js" charset="utf-8"></script>
-    <!-- <script src="./js/about.js" charset="utf-8"></script> -->
+    <script src="./js/contactUs.js" charset="utf-8"></script>
 
     <link rel="stylesheet" href="./css/master.css">
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/contactUs.css">
   </head>
   <body>
 
-    <nav class="navbar navbar-expand">
+    <nav class="navbar navbar-expand bg-white">
       <!-- Links -->
       <ul class="navbar-nav nav-separate">
         <li class="nav-item">
-          <a class="nav-link nav-text" href="./home.html">Main</a>
+          <a class="nav-link nav-text black" href="./home.html">Main</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-text" href="#">New</a>
+          <a class="nav-link nav-text black" href="#">New</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link nav-text" href="#" id="navbardrop" data-toggle="dropdown">
+          <a class="nav-link nav-text black" href="#" id="navbardrop" data-toggle="dropdown">
             Shop
           </a>
           <div class="dropdown-menu">
@@ -45,53 +45,78 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-text" href="./projects.html">Projects</a>
+          <a class="nav-link nav-text black" href="./projects.html">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-text" href="./contactUs.html">Contact Us</a>
+          <a class="nav-link nav-text black" href="./about.html">About</a>
         </li>
       </ul>
     </nav>
 
-    <span>
-      <h1 id="title" class="special-red alteDIN title">ABOUT <img src="./images/Double-Long-Red.png" class="img-fluid w-80" /></h1>
-    </span>
-
-
-    <div class="row">
-      <div class="col-3">
-        <img src="./images/SpookyPurpleLeft.png" class="img-fluid side-image-1" alt="">
-      </div>
-      <div class="col-6">
+    <div id="topLogos" class="row">
+      <div class="col-4 offset-1">
         <img src="./images/Logo_3.png" class="img-fluid logo">
-        <p class="desc-1">Alkaline LLC is both a clothing label and a board company. Founded in 2019 by Matt Le Cras, the brand aims to fuel from and be conductive to skateboarding culture. The brand draws creative inspiration from the
-          massive popularity
-          of skateboarding in the 90’s as well as motorcycles, nature, art from the 60’s to present, and the electricity and chemistry associated with the brand’s name.
-        </p>
-      </div>
-      <div class="col-3">
-        <img src="./images/SpookyPurpleRight.png" class="img-fluid side-image-2" alt="">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-6 offset-1">
-        <h4 class="desc-2"><span class="special-red">Matt Le Cras</span> is the founder and CEO of Alkaline LLC. He is a devoted skater and is very passionate about art and design. Matt is also a mechanical engineering student at the Ohio State
-          University.</h4>
-        <h6 class="desc-3">
-          Matt currently produces all of the art and graphics for Alkaline LLC, but is open to bringing on more people to help with this and some other miscellaneous needs of the company in the future. If you are interested with working with us,
-          equity
-          investing, or are just interested in more company info, you can find contact information for Matt under our ”Contact Us” page.
-        </h6>
       </div>
       <div class="col-3 offset-1">
-        <img src="./images/Matt.jpg" class="img-fluid " alt="...">
+        <img src="./images/Alkaline_skull_logo_blue.png" class="img-fluid skull_1">
+      </div>
+      <div class="col-3">
+        <img src="./images/skull_logo_red_yellow.png" class="img-fluid skull_2">
       </div>
     </div>
 
-    <div class="bottom-image-container">
-      <img src="./images/SpookyPurpleBottom.png">
+    <div id="titleLine" class="row">
+      <div class="col-8 blackLines">
+        <span></span>
+      </div>
+      <div class="col-3">
+        <h1 class="title alteDIN special-purple">CONTACT US</h1>
+      </div>
+      <div class="col-1 blackLines">
+        <span></span>
+      </div>
     </div>
+
+    <div class="row employees">
+      <div class="col-3 offset-1">
+        <img src="./images/Matt_gray_shirt.jpg" class="img-fluid">
+      </div>
+      <div class="col-8">
+        <div class="container identifier">
+          <div class="row">
+            <h2 class="special-purple alteDIN">Matt Le Cras</h2>
+          </div>
+          <div class="row">
+            <h2 class="agencyFont">Founder, CEO</h2>
+          </div>
+          <div class="row">
+            <h4><img src="./images/Email_Logo.png" class="img-fluid emailLogo alteDIN"> Matt@Alkalineskate.com</h4>
+          </div>
+        </div>
+        <div class="row socialLinks">
+          <a href="https://www.facebook.com/AlkalineSkateboards/" target="_blank" class="fa fa-facebook-square"></a><a href="https://www.instagram.com/alkalineskate/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-3 blackLines">
+          <span></span>
+        </div>
+        <div class="col-6">
+          <img src="./images/4_skulls.png" class="img-fluid">
+        </div>
+        <div class="col-3 blackLines">
+          <span></span>
+        </div>
+      </div>
+    </footer>
+
+
+
 
 
 
