@@ -52,7 +52,7 @@ body {
 
 .side-image-1 {
   left: 50%;
-	margin-left: -10vw;
+	margin-left: -12vw;
 	margin-right: -50vw;
 	max-width: 24vw;
 	position: relative;
@@ -62,7 +62,7 @@ body {
 
 .side-image-2 {
   left: 50%;
-	margin-left: -15vw;
+	margin-left: -12vw;
 	max-width: 25vw;
 	position: relative;
 	right: 50%;
@@ -79,7 +79,13 @@ body {
   font-size: 1.7vw;
 }
 
-.bottom-image {
-  width: 70vw;
-  float: right;
+.bottom-image-container {
+  margin-top: 5vw;
+  width: 100vw;
+  height: 30vw;
+  overflow: hidden;
+}
+
+.bottom-image-container img {
+  width: 100vw;
 }
