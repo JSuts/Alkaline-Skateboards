@@ -8,6 +8,10 @@
   font-family: 'alteDIN', sans-serif;
 }
 
+.agencyFont {
+  font-family: 'Teko', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
