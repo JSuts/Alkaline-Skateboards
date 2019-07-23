@@ -61,9 +61,8 @@ body {
   font-weight: bold;
 }
 
-.blackLines {
-  border-top: .5vw solid black;
-  border-bottom: .5vw solid black;
+.topLeft {
+  padding-left: 2vw;
 }
 
 .employees {
@@ -98,8 +97,4 @@ body {
 footer {
   margin-top: 20vw;
   margin-bottom: 10vw;
-}
-
-footer img {
-  width: 100vw;
 }

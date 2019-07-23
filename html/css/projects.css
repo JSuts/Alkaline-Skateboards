@@ -48,7 +48,7 @@
   margin-top: -1.65vw;
   font-size: 5vw;
   margin-left: 4vw;
-  text-shadow: -3.5vw -3.5vw black;
+  text-shadow: -3.5vw -1.5vw black;
 }
 
 .title img {
@@ -66,20 +66,15 @@
 
 #carouselWithControls div img {
   margin: auto;
-  /* display: block; */
   max-width: 60vw;
   max-height: 40vw;
   width: auto;
   height: 100%;
-  /* height: auto;
-  max-width: 50vw; */
-  /* object-fit:scale-down; */
-  /* position: relative;
-  top: 80%;
-  transform: translateY(-10%); */
+
 }
 
 #separator {
   width: 98vw;
   padding-top: 2vw;
+  padding-left: 2vw;
 }
