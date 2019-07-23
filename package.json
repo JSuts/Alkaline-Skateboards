@@ -1,0 +1,23 @@
+{
+  "name": "alkaline-skateboards",
+  "version": "1.0.0",
+  "description": "Website for Alkaline Skateboards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSutter449/Alkaline-Skateboards.git"
+  },
+  "author": "Jake Sutter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSutter449/Alkaline-Skateboards/issues"
+  },
+  "homepage": "https://github.com/JSutter449/Alkaline-Skateboards#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
