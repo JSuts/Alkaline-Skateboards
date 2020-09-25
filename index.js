@@ -15,10 +15,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/html/home.html'));
 })
 
-app.get('/git-pull', (req, res) => {
+app.post('/git-pull', (req, res) => {
   console.log('Pulling (probably)');
   console.log(req);
-  exec('cd /home/ubuntu/Discord-Bot && git pull', (error, stdout, stderr) => {
+  exec('cd /home/ubuntu/Discord-Bot && git pull && sleep 5 && pm2 restart discord-bot', (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
